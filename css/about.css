@@ -1,0 +1,147 @@
+*{
+    margin:auto ;
+    padding: 0;
+    position: relative;
+}
+@font-face {
+    font-family: beyond;
+    src: url(../fonts/beyond_the_mountains-webfont.woff);
+ }
+ .navbar {
+    background: rgba(0, 0, 0, 0.7); }
+    .navbar a {
+      color: #fff; }
+    .navbar ul {
+      margin: auto; }
+    .navbar li {
+      font-size: 17px;
+      letter-spacing: 1px;
+      font-family: monospace;
+      padding: 0px 12px; }
+    .navbar li a:hover {
+      color: red; }
+    .navbar .btn {
+      background: #F1002A;
+      letter-spacing: 1px;
+      font-size: 16px;
+      font-weight: bold; }
+    .navbar .btn:hover {
+      background: #000;
+      border: 1px solid red; }
+    .navbar .navbar-brand img {
+      width: 186px;
+      height: 64px; }
+  
+
+body{
+    width: 100%;
+    height:auto;
+}
+.banner{
+    background: url("../img/p.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   padding-top: 200px;
+    text-align: center;
+    
+    color:white;
+}
+.banner p{
+    font-family: beyond;
+    font-size: 70px;
+}
+
+
+.heading-style{
+
+    text-align: center;
+    font-size: 50px;
+   
+    font-weight: 500;
+    word-spacing: 10px;
+    font-family: beyond;
+
+}
+div#midContent{
+    background-color: white;
+    float: left;
+    width:100%;
+    height: 500px;
+    color: black;
+}
+#midContent p{
+
+    text-align: center;
+    font-size: 20px;
+    color:gray;
+
+}
+div#midContent .row p{
+
+    text-align: justify;
+    color:gray;
+    font-size: 15px;
+    padding: 10px;
+   
+}
+#btn{
+    text-align: center;
+   
+}
+#btn a{
+    border-bottom: 5px solid green;
+}
+#btn a:hover{
+    background: red;
+}
+.comment{
+    width: 100%;
+ 
+    background: url("../img/about-2-600x400.jpg");
+    height: 200px;
+    float: left;
+    margin-top: 600px;
+    background-size: cover;
+    height: 600px;
+   text-align: center;
+   color: #fff;
+  
+
+}
+.comment-tittle{
+
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 10px;
+    font-family: beyond;
+    color: #000;
+    
+
+}
+.comment img{
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+}
+
+#footer {
+    background: url(../img/footer_1600x800.jpg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 1700px;
+ }
+    #footer .footer-content {
+      padding: 56px 0px; }
+    #footer .footer-overlay {
+      background: rgba(0, 0, 0, 0.8);
+      min-height: 500px; }
+    #footer a {
+      color: #fff; }
+    #footer a:hover {
+      color: red;
+      text-decoration: none; }
+    #footer i {
+      font-size: 25px; }
+    #footer i:hover {
+      color: red; }

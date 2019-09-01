@@ -1,0 +1,145 @@
+@font-face {
+    font-family: beyond;
+    src: url(../fonts/beyond_the_mountains-webfont.woff); }
+
+.row {
+    margin-right: 0;
+}
+
+.service-header {
+    width: 40px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 500;
+    word-spacing: 10px;
+    font-family: beyond;
+}
+
+.service-box {
+    overflow: hidden;
+    border: 1px solid #edebe2;
+    border-radius: 20px;
+}
+
+.service-design {
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+.service-design:hover {
+    transform: scale(1.1);
+}
+
+.service-overlay {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.service-text{
+    background-color: rgba(255, 255, 255, .8);
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none !important;
+}
+
+.service-box:hover .service-text {
+    background-color: rgba(255, 0, 0, .8);
+    color: white;
+}
+
+.service-price {
+    text-align: center;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 500;
+    word-spacing: 10px;
+    font-family: beyond;
+}
+
+.service-starters {
+    color: #c82333;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.starters-h6 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #5a6268;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.starters-p {
+    font-size: 15px;
+    word-spacing: 1px;
+    color: #545b62;
+    margin-bottom: 35px;
+}
+
+.bg-pizza {
+    background: url("../img/service-image/bg-pizza.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 400px;
+}
+
+.pizza-overlay {
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.pizza-text{
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 500;
+    word-spacing: 10px;
+    font-family: beyond;
+    color: white;
+    /*margin-top: 100px;*/
+}
+
+.service-item {
+    height: 120px;
+    width: 150px;
+    /*margin-top: 70px;*/
+}
+
+.food-item {
+    border-radius: 13px;
+}
+
+.bg-pasta {
+    background: url("../img/service-image/bg-pasta.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 400px;
+}
+	
